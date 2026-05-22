@@ -25,7 +25,7 @@
 |avg\_playtime|int|Среднее время игры (минуты)|
 |median\_playtime|int|Медианное время игры (минуты)|
 |peak\_ccu|int|Пиковый онлайн (одновременных игроков)|
-|review\_class|str|Класс отзывов (Positive/Mixed/Negative)|
+|review\_class|str|Класс отзывов (Positive/Not Positive)|
 
 ## Целевая переменная
 
