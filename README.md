@@ -8,8 +8,8 @@
 оценена пользователями (Positive vs Not Positive).
 
 ## Примеры визуализаций
-![EDA Overview](eda_overview.png)
-![Baseline Results](baseline_results.png)
+![EDA Overview](overview.png)
+![Baseline Results](baseline.png)
 
 ## Структура файла steam\_games.csv
 
