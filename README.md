@@ -7,6 +7,10 @@
 Задача: классификация — предсказать, будет ли игра положительно
 оценена пользователями (Positive vs Not Positive).
 
+## Примеры визуализаций
+![EDA Overview](eda_overview.png)
+![Baseline Results](baseline_results.png)
+
 ## Структура файла steam\_games.csv
 
 |Колонка|Тип|Описание|
@@ -26,6 +30,12 @@
 |median\_playtime|int|Медианное время игры (минуты)|
 |peak\_ccu|int|Пиковый онлайн (одновременных игроков)|
 |review\_class|str|Класс отзывов (Positive/Not Positive)|
+|genre|str|Топ-3 тега по голосам пользователей|
+|tag\_count|int|Общее количество тегов у игры|
+|userscore|int|Оценка SteamSpy (0–100)|
+|owners\_min|int|Нижняя граница числа владельцев|
+|avg\_playtime\_2w|int|Среднее время за последние 2 недели (мин)|
+|median\_playtime\_2w|int|Медианное время за последние 2 недели (мин)|
 
 ## Целевая переменная
 
@@ -55,7 +65,7 @@ matplotlib
 ## Результаты baseline-модели
 
 * Модель: RandomForestClassifier (300 деревьев, max\_depth=15)
-* Accuracy: 0.692
-* F1 (weighted): 0.685
-* Positive class F1: 0.76
+* Accuracy: 0.715
+* F1 (weighted): 0.707
+* Positive class F1: 0.78
 
